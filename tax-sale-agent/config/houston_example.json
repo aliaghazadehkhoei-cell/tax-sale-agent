@@ -1,0 +1,12 @@
+{
+  "start_url": "https://example-houston.gov/code-enforcement/search?address=123+Main+St",
+  "row_selector": "table#results > tbody > tr",
+  "fields": {
+    "Address": "td:nth-child(1)",
+    "LienType": "td:nth-child(2)",
+    "Amount": "td:nth-child(3)",
+    "Date": "td:nth-child(4)",
+    "Notes": "td:nth-child(5)"
+  },
+  "next_selector": "a.next"
+}
